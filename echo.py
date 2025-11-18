@@ -96,6 +96,7 @@ async def snd(
     photo=None,
     markdown=False,
     block=True,
+    **kwargs
 ):
     parse_mode = enums.ParseMode.MARKDOWN if markdown else enums.ParseMode.HTML
     try:
@@ -104,34 +105,34 @@ async def snd(
             return await app.send_message(
                 chat_id=message,
                 text=text,
-                disable_web_page_preview=True,
-                disable_notification=True,
                 reply_markup=buttons,
                 parse_mode=parse_mode,
+                disable_web_page_preview=True,
+                disable_notification=True,
+                **kwargs
             )
+
         if photo:
             return await message.reply_photo(
                 photo=photo,
-                reply_to_message_id=message.id,
                 caption=text,
                 reply_markup=buttons,
-                disable_notification=True,
                 parse_mode=parse_mode,
+                disable_notification=True,
+                has_spoiler=kwargs.get("has_spoiler"),
+                message_effect_id=kwargs.get("message_effect_id")
             )
+
         return await message.reply(
             text=text,
-            quote=True,
-            disable_web_page_preview=True,
-            disable_notification=True,
             reply_markup=buttons,
             parse_mode=parse_mode,
+            quote=True,
+            disable_notification=True,
+            disable_web_page_preview=True,
+            **kwargs
         )
+
     except FloodWait as f:
-        logging.warning(str(f))
-        if not block:
-            return message
         await sleep(f.value * 1.2)
-        return await send_message(message, text, buttons, photo, markdown)
-    except Exception as e:
-        logging.error(str(e))
-        raise
+        return await snd(message, text, buttons, photo, markdown, block, **kwargs)
