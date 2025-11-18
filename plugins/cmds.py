@@ -1,4 +1,3 @@
-import logging
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from xtra import snd, Btn  
