@@ -1,54 +1,70 @@
-Mega Links Checker Bot
+# 🚀 Mega Links Checker Bot
 
-Telegram bot that checks MEGA.nz links and shows file/folder names, sizes, and file lists.
-
-
----
-
-Deployment
-
+A Telegram bot to check MEGA.nz links — displays file/folder names, sizes, lists files and folders in a clean, interactive format.
 
 ---
-
-Heroku
 
 <details>
-<summary>Expand</summary>1. Fork this repository
+  <summary><strong>✨ Features</strong></summary>
 
-
-2. Use the Deploy to Heroku button
-
-
-3. Provide BOT_TOKEN, API_ID, API_HASH
-
-
-4. Deploy
-
-
-
-
-
+  - Check MEGA.nz file/folder links.
+  - Returns file and folder names, sizes.
+  - Lists content in expandable/collapsible style.
 </details>
+
 ---
 
-VPS or Local Setup
+## 📦 Deployment Guide
 
 <details>
-<summary>Expand</summary>Clone the repository
+  <summary><strong>🌐 Heroku (One-Click Deploy)</strong></summary>
 
-git clone https://github.com/XalFH/Mega-Links-Checker.git
-cd Mega-Links-Checker
-
-Install dependencies
-
-pip install -r requirements.txt
-
-Configure
-
-Edit config.py and add your Telegram API ID, API HASH, and BOT TOKEN.
-
-Run the bot
-
-python3 main.py
+  1. **Fork this repo**
+  2. **Click:**  
+      <a href="https://heroku.com/deploy?template=https://github.com/XalFH/Mega-Links-Checker">
+        <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" />
+      </a>
+  3. **Fill required vars:**  
+      - `BOT_TOKEN`  
+      - `API_ID`  
+      - `API_HASH`
+  4. **Deploy and run!**
 
 </details>
+
+<details>
+  <summary><strong>🖥️ Deploy on VPS / Locally</strong></summary>
+
+  1. **Clone the repository:**
+      ```sh
+      git clone https://github.com/XalFH/Mega-Links-Checker.git
+      cd Mega-Links-Checker
+      ```
+
+  2. **Install dependencies:**
+      ```sh
+      pip install -r requirements.txt
+      ```
+
+  3. **Configure bot:**
+      - Edit `config.py` with your Telegram API ID, HASH, & BOT TOKEN.
+
+  4. **Run the bot:**
+      ```sh
+      python3 main.py
+      ```
+
+</details>
+
+---
+
+> **Pro Tip:**  
+> Interactive expand/collapse instructions above help keep documentation organized and stylish.
+
+---
+
+### 🌟 Contribute & Support
+
+Pull requests, issues, and suggestions welcome!
+
+---
