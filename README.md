@@ -17,6 +17,7 @@ A Telegram bot to check MEGA.nz links displays file/folder names, sizes, lists f
       - `BOT_TOKEN`  
       - `API_ID`  
       - `API_HASH`
+      - `LOG_CHANNEL`(optional)
   4. **Deploy and run!**
 
 </details>
