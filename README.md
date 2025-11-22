@@ -63,7 +63,7 @@ A Telegram bot to check MEGA.nz links displays file/folder names, sizes, lists f
   <br>
   <p align="center">
     <kbd>
-      <img width="600" src="https://graph.org/file/639fe4239b78e5862b302.jpg" alt="Bot Demo">
+      <img width="600" src="https://graph.org/Git-11-22" alt="Bot Demo">
     </kbd>
   </p>
 
