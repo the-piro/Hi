@@ -55,12 +55,12 @@ A Telegram bot to check MEGA.nz links displays file/folder names, sizes, lists f
 | `API_HASH` | **Yes** | Your Telegram API Hash from [my.telegram.org](https://my.telegram.org) |
 | `LOG_CHANNEL` | No | Optional: Channel ID for logging bot activity (format: `-100xxxxxxxxxx`) |
 
-## Screenshot
+## Screenshots/Demo
 
 <details>
   <summary><strong>View Bot Interface</strong></summary>
 
   <br>
-  <img src="https://i.ibb.co/M5DCDS1m/photo-2025-11-22-02-42-00-7575374518235955216.jpg" alt="Bot Demo" width="600">
+  <img src="https://i.ibb.co/M5DCDS1/photo-2025-11-22-02-42-00-7575374518235955216.jpg" alt="Bot Demo" width="600">
 
 </details>
