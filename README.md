@@ -75,4 +75,3 @@ A Telegram bot to check MEGA.nz links displays file/folder names, sizes, lists f
   </p>
 
 </details>
-```
