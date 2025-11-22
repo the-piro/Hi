@@ -1,23 +1,12 @@
-# 🚀 Mega Links Checker Bot
+# Mega Links Checker Bot
 
-A Telegram bot to check MEGA.nz links — displays file/folder names, sizes, lists files and folders in a clean, interactive format.
+A Telegram bot to check MEGA.nz links displays file/folder names, sizes, lists files and folders in with log channel support.
 
----
 
-<details>
-  <summary><strong>✨ Features</strong></summary>
-
-  - Check MEGA.nz file/folder links.
-  - Returns file and folder names, sizes.
-  - Lists content in expandable/collapsible style.
-</details>
-
----
-
-## 📦 Deployment Guide
+## Deployment Guide
 
 <details>
-  <summary><strong>🌐 Heroku (One-Click Deploy)</strong></summary>
+  <summary><strong>Heroku (One-Click Deploy)</strong></summary>
 
   1. **Fork this repo**
   2. **Click:**  
@@ -33,7 +22,7 @@ A Telegram bot to check MEGA.nz links — displays file/folder names, sizes, lis
 </details>
 
 <details>
-  <summary><strong>🖥️ Deploy on VPS / Locally</strong></summary>
+  <summary><strong>VPS / Locally</strong></summary>
 
   1. **Clone the repository:**
       ```sh
@@ -55,16 +44,3 @@ A Telegram bot to check MEGA.nz links — displays file/folder names, sizes, lis
       ```
 
 </details>
-
----
-
-> **Pro Tip:**  
-> Interactive expand/collapse instructions above help keep documentation organized and stylish.
-
----
-
-### 🌟 Contribute & Support
-
-Pull requests, issues, and suggestions welcome!
-
----
